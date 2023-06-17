@@ -1,0 +1,78 @@
+#Window Management
+
+Go to next / previous window 
+[ Meta ] + [ k / j ]
+
+Adjust window size 
+[ Meta ] + [ h / j ] 
+
+Move window whitin tiles 
+[ Meta ] + [ Shift ] + [ j / k ]
+
+Move window to workspace 
+[ Meta ] + [ Shift ] + [ 1-9 ]
+
+Float or Dock a window 
+[ Meta ] + [ Shift ] + [ Space ]
+
+Float and move window 
+[ Meta ] + [ LClick ] + [ Drag ]
+
+Resize floating window 
+[ Meta ] + [ RClick ] + [ Drag ]
+
+Fullscreen window 
+[ Meta ] + [ f ]
+
+Stick a winwod to all workspaces 
+[ Meta ] + [ s ] 
+
+#Workspaces
+
+Go to workspace 
+[ Meta ] + [ 1-9 ]
+
+Show windows on all workspaces 
+[ Meta ] + [ 0 ]
+
+Go to previous workspace 
+[ Meta ] + [ Tab ]
+
+Toggle window gaps
+[ Meta ] + [ a ]
+
+Increase decrease window gaps
+[ Meta ] + [ Shift ] + [ z / x ]	
+
+#Layouts
+
+[ Meta ] + [ t ] Tiling mode
+[ Meta ] + [ T ] Bottom stack mode
+[ Meta ] + [ F ] Floating mode
+[ Meta ] + [ y ] Fibonacci mode
+[ Meta ] + [ Y ] Reverse Fibonacci
+[ Meta ] + [ u ] Master on left, cycle right
+[ Meta ] + [ U ] Fullsize and cycle
+[ Meta ] + [ i ] Ceter master window
+[ Meta ] + [ I ] Float master window
+[ Meta ] + [ o / O ] Master + / -
+#Monitors
+
+Shift window to next / previous monitor 
+[ Meta ] + [ Shift ] + [ h / l ]
+
+Shift Focus to next / previous monitor 
+[ Meta ] + [ <- / -> ]
+
+#Misc
+
+Power actions [ Meta ] + [ backspace ]
+All binaries [ Meta ] + [ d ]
+Browser [ Meta ] + [ w ]
+Terminal [ Meta ] + [ Enter ]
+File Manager [ Meta ] + [ e ]
+Lock Screen [ Meta ] + [ l ]
+Screenshot [ Shift ] + [ PrtScn ]
+Music Player [ Meta ] + [ m ]
+Sound Control [ Meta ] + [ F4 ]
+Calculator [ Meta ] + [ ' ]
