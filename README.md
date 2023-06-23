@@ -6,6 +6,7 @@ A bash-generated cheatsheet wallpaper for newcomers using my DWM fork, easing th
 
 - Takes a custom wallpaper as background
 - Fills columns with text on top of background
+- Custom line color with "@color" tag at the end
 - Generates an output JPEG
 - Sets JPEG as wallpaper
 
