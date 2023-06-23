@@ -27,6 +27,11 @@ line_height=$((fontsize + row_margin))
 y=$(( margin ))
 while read -r line; do
     x=$(( margin + col * (col_width + margin) ))
+    if [[ $line == *"@"* ]]; then
+        fontcolor=$(echo $line | cut -d'@' -f2)
+        line=$(echo $line | cut -d'@' -f1)
+    fi
+    
     if [[ $line == \#* ]]; then
         line=${line#\#}
         header_font=$((fontsize * 3 /2))
@@ -36,6 +41,8 @@ while read -r line; do
     fi
     y=$((y + line_height))
 
+    #Reset to default Color
+    fontcolor="white"
     # Move to next column when the bottom is reached
     if ((y + line_height > img_height - margin)); then
         y=$(( margin ))
@@ -49,4 +56,3 @@ while read -r line; do
 done < "$textfile"
 
 setbg output.jpg
-
