@@ -6,7 +6,7 @@ A bash-generated cheatsheet wallpaper for newcomers using my DWM fork, easing th
 
 - Takes a custom wallpaper as background
 - Fills columns with text on top of background
-- Custom line color with "@color" tag at the end
+- Custom line color with "@color" tag at the end of a line
 - Generates an output JPEG
 - Sets JPEG as wallpaper
 
@@ -17,6 +17,7 @@ A bash-generated cheatsheet wallpaper for newcomers using my DWM fork, easing th
 ## Installation
 
 ```bash
+./installReq.sh
 git clone https://github.com/tragdate/SucklessKeyPeek
 ```
 
@@ -45,7 +46,12 @@ No build required. Place the script in the desired directory.
 
 ## Author
 
-🥷 [TragDate](https://tragdate.ninja)
+🥷-[TragDate](https://tragdate.ninja)
+
+## Contributors 
+ -[andrei-cojanu18](https://github.com/andrei-cojanu18)
+
+ -[haalk3n](https://github.com/haalk3n)
 
 Documentation done by [docuTron](https://github.com/tragdate/docuTron)
 
